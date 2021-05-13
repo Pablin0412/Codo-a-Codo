@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img/minilogo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Estudio Waimberg</title>
+</head>
+<body>
+    <header>
+        <!--Esta es la Barra de Navegacion-->
+        <nav>
+            <ul class="menu"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quienesSomos.html">Quienes Somos</a></li>
+                <li><a href="nuestrosServicios.html">Nuestros Servicios</a></li>
+                <li><a href="infoadicional.html">Información Adicional</a></li>
+                <li><a href="contacto.html">Contacto</a></li>   
+            </ul>    
+        </nav>
+
+        <img class="img-encabezado" src="img/image001.jpg" alt="logo estudio para encabezado">        
+    </header>
+    <main>
+        <section>
+        <div>
+            <!--Se utiliza el formspree como back del formulario, se envía la info a la página y a nuestro mail-->
+            <form action="https://formspree.io/f/xoqyjlaz" method="post" target="_blank">
+                <fieldset>
+                    <legend>
+                        Para un mejor asesoramiento, nos gustaria conocerte mejor
+                    </legend>
+                    <label>
+                      Sos Persona Física ?
+                        <input type="radio" name="personería" value="persona fisica">
+                    </label>
+                    <label> 
+                      Sos Persona Jurídica ?
+                        <input type="radio" name="personería" value="persona jurídica"></label><br>
+                    <label>
+                        Nombre o Razón Social :  
+                        <input required="" type="text">
+                    </label>
+                    <label>
+                        Fecha de Inscripción :
+                        <input type="date" name="fecha">
+                    </label>
+                    <label>
+                        Situacion frente al IVA : 
+                        <select name="IVA">
+                            <option value="Responsable Monotributo">Responsable Monotributo</option>
+                            <option value="IVA Sujeto Exento">IVA Sujeto Exento</option>
+                            <option value="IVA No Responsable">IVA No Responsable</option>
+                            <option value="Responsable Inscripto">Responsable Inscripto</option>
+                            <option value="Responsable No Inscripto">Responsable No Inscripto</option>
+                            <option value="Consumidor Final">Consumidor Final</option>
+                        </select> <br>
+                    </label>
+                    <label for="provincia">
+                        Provincias donde desarrolla su actividad :
+                    </label> <br>
+                        <div class="grid">
+                            <input class="item-1" type="checkbox" id="C.A.B.A" name="C.A.B.A">    
+                                <label> C.A.B.A</label>
+                            <input class="item-2" type="checkbox" id="Buenos Aires" name="Buenos Aires">    
+                                <label> Buenos Aires</label>
+                            <input class="item-3" type="checkbox" id="Catamarca" name="Catamarca">
+                                <label> Catamarca</label>
+                            <input class="item-4" type="checkbox" id="Cordoba" name="Cordoba">
+                                <label> Cordoba</label>
+                            <input class="item-5" type="checkbox" id="Corrientes" name="Corrientes">
+                                <label> Corrientes</label>      
+                            <input class="item-6" type="checkbox" id="Chaco" name="Chaco">
+                                <label> Chaco</label> <br>      
+                            <input class="item-7" type="checkbox" id="Chubut" name="Chubut">
+                                <label> Chubut</label>
+                            <input class="item-8" type="checkbox" id="Entre Ríos" name="Entre Ríos">
+                                <label> Entre Ríos</label>
+                            <input class="item-9" type="checkbox" id="Formosa" name="Formosa">
+                                <label> Formosa</label>
+                            <input class="item-10" type="checkbox" id="Jujuy" name="Jujuy">
+                                <label> Jujuy</label>
+                            <input class="item-11" type="checkbox" id="La Pampa" name="La Pampa">
+                                <label> La Pampa</label>
+                            <input class="item-12"type="checkbox" id="La Rioja" name="La Rioja">
+                                <label> La Rioja</label> <br>
+                            <input class="item-13"type="checkbox" id="Mendoza" name="Mendoza">
+                                <label> Mendoza</label>   
+                            <input class="item-14" type="checkbox" id="Misiones" name="Misiones">
+                                <label> Misiones</label>   
+                            <input class="item-15"type="checkbox" id="Neuquén" name="Neuquén">
+                                <label> Neuquén</label>
+                            <input class="item-16" type="checkbox" id="Rio Negro" name="Rio Negro">
+                                <label> Rio Negro</label>   
+                            <input class="item-17" type="checkbox" id="Salta" name="Salta">
+                                <label> Salta</label>   
+                            <input class="item-18" type="checkbox" id="San Juan" name="San Juan">
+                                <label> San Juan</label> <br>     
+                            <input class="item-19" type="checkbox" id="San Luis" name="San Luis">
+                                <label> San Luis</label>
+                            <input class="item-20" type="checkbox" id="Santa Cruz" name="Santa Cruz">
+                                <label> Santa Cruz</label>   
+                            <input class="item-21" type="checkbox" id="Santa Fe" name="Santa Fe">
+                                <label> Santa Fe</label>   
+                            <input class="item-22" type="checkbox" id="Santiago del Estero" name="Santiago del Estero">
+                                <label> Santiago del Estero</label>   
+                            <input class="item-23" type="checkbox" id="Tierra del Fuego" name="Tierra del Fuego">
+                                <label> Tierra del Fuego</label>   
+                            <input class="item-24" type="checkbox" id="Tucuman" name="Tucuman">
+                                <label> Tucuman</label> <br>       
+                        </div>    
+                    <label>
+                        Cantidad de Empleados a Cargo :
+                        <input type="number" name="cantidad">
+                    </label>
+                    <label for="email">
+                        email:
+                        <input name="email" placeholder="xxx@xxxxxx.com.ar" required="" type="text">
+                    </label> <br>
+                    <label for="consulta">
+                        Dejanos tu consulta o comentario
+                        <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" value="enviar">
+                <input type="reset" value="reestablecer">
+            </form>
+        </div>
+        </section>
+        <section> 
+            
+            <h3 class="encuentranos">Puedes encontrarnos aquí</h3>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.963324945299!2d-58.39320018537162!3d-34.60508889523124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac162c16f11%3A0xeb5aaab827e55b9!2sWaimberg!5e0!3m2!1ses!2sar!4v1619661294063!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+        </section>
+    </main>
+    <footer>
+         <!--Redes Sociales-->
+        <ul>
+            <li class="redes-sociales"><a href="https://es-la.facebook.com/people/Estudio-Waimberg/100057680559324/"><i class="fab fa-facebook"></i></a></li>
+            <li class="redes-sociales"><a href="https://www.linkedin.com/in/federico-waimberg-0a8a4593"><i class="fab fa-linkedin"></i></a></li>     
+        </ul>
+        <p>Derechos reservados por Estudio Waimberg | Diseños digitales P-Ro</p>
+    </footer>    
+</body>
+</html>
